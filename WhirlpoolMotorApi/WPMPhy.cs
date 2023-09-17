@@ -149,7 +149,7 @@ namespace WhirlpoolMotorApi
         {
             try
             {
-                string message = "";
+                string message = cc"";
 
                 // Wait till we get STX
                 while (_serialPort.ReadByte() != (byte)ControlChar.STX) ;
